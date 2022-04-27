@@ -1,0 +1,47 @@
+\hypertarget{puntero__simple_8c}{}\doxysection{Referencia del Archivo puntero\+\_\+simple.\+c}
+\label{puntero__simple_8c}\index{puntero\_simple.c@{puntero\_simple.c}}
+
+
+Contiene un programa que intercambia el valor de dos variables mediante el método de cambio por valor y otro por el método de los punteros.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Dependencia gráfica adjunta para puntero\+\_\+simple.\+c\+:
+% FIG 0
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_a6d64b9bda58acb2d2a62903f1cf20cfd}\label{puntero__simple_8c_a6d64b9bda58acb2d2a62903f1cf20cfd}} 
+void {\bfseries Cambio\+Por\+Valor} (int, int)
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_a9a58e9c505ee6904c15103f795d141ad}\label{puntero__simple_8c_a9a58e9c505ee6904c15103f795d141ad}} 
+void {\bfseries Cambio\+Por\+Puntero} (int $\ast$, int $\ast$)
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{puntero__simple_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_aa4c2a5552e9bc49b1816ff532f558c74}\label{puntero__simple_8c_aa4c2a5552e9bc49b1816ff532f558c74}} 
+int {\bfseries a} = 10
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_a148e3876077787926724625411d6e7a9}\label{puntero__simple_8c_a148e3876077787926724625411d6e7a9}} 
+int {\bfseries b} = 75
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_a4e1e0e72dd773439e333c84dd762a9c3}\label{puntero__simple_8c_a4e1e0e72dd773439e333c84dd762a9c3}} 
+int {\bfseries c} = 45
+\item 
+\mbox{\Hypertarget{puntero__simple_8c_a6f364afbe132c4ecfea48bde1b0618ba}\label{puntero__simple_8c_a6f364afbe132c4ecfea48bde1b0618ba}} 
+int {\bfseries d} = 90
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Contiene un programa que intercambia el valor de dos variables mediante el método de cambio por valor y otro por el método de los punteros. 
+
+\begin{DoxyAuthor}{Autor}
+Fernando Jiménez Ureña
+\end{DoxyAuthor}
+Mediante el uso de funciones y punteros se logra desarrollar el programa \begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]por determinar \end{DoxyRefDesc}
