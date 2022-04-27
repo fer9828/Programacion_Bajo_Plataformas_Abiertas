@@ -1,0 +1,27 @@
+\hypertarget{cadena_8c}{}\doxysection{Referencia del Archivo cadena.\+c}
+\label{cadena_8c}\index{cadena.c@{cadena.c}}
+
+
+Contiene un programa que cuenta las vocales, consonantes y dígitos totales en una línea de texto.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Dependencia gráfica adjunta para cadena.\+c\+:
+% FIG 0
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{cadena_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{cadena_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Contiene un programa que cuenta las vocales, consonantes y dígitos totales en una línea de texto. 
+
+\begin{DoxyAuthor}{Autor}
+Fernando Jiménez Ureña
+\end{DoxyAuthor}
+Mediante el uso del bucle switch, printf y gets se logra desarrollar el programa \begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]por determinar \end{DoxyRefDesc}
